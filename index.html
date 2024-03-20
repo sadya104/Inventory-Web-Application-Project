@@ -4,8 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://kit.fontawesome.com/f663c563f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <article class='container'>
+
+        <aside class="container__left-side">
+            <h2>Booktory</h2>
+        </aside>
+
+        <div class="container__Books-div">
+           <div>Book one
+            <img src="" alt="">
+            <p class="title">Principles</p>
+            <p class="price">$</p>
+            <p class="author"></p>
+            <input type="button" value="In stock">
+            <i class="fa-regular fa-trash-can"></i>
+            <hr>
+            </div>
+
+           <div>Book two
+            <img src="" alt="">
+            <p class="title">Principles</p>
+            <p class="price">$</p>
+            <p class="author"></p>
+            <input type="button" value="In stock">
+            <i class="fa-regular fa-trash-can"></i>
+            <hr>
+           </div>
+           
+           <div>Book three
+            <img src="" alt="">
+            <p class="title">Principles</p>
+            <p class="price">$</p>
+            <p class="author"></p>
+            <input type="button" value="In stock">
+            <i class="fa-regular fa-trash-can"></i>
+            <hr>
+           </div>
+        
+        </div>
+
+        <aside class="container__right-side">
+
+        <form class="container__right-side__form">
+            <input type="text" class="container__right-side__form__input" placeholder="Title">
+            <input type="text" class="container__right-side__form__input" placeholder="Author">
+            <input type="text" class="container__right-side__form__input" placeholder="Image URL">
+            <input type="text" class="container__right-side__form__input" placeholder="Price">
+            <select class="container__right-side__form__input__stock" name="stock">
+                <option value="In-Stock">In Stock</option>
+                <option value="Out-of-Stock">Out of Stock</option>
+            </select>
+            <button type="submit">Add Book</button>
+
+
+
+        </form>
+
+
+    </aside>
+
+
+    </article>
 </body>
 </html>
