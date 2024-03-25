@@ -1,7 +1,7 @@
 
-[BookTory](http://127.0.0.1:5500/index.html)
 
-[Booktory]() is a simple web application designed for managing a book inventory. Through this application, users can display books, add new books to the inventory, and remove books. This project focuses on leveraging fundamental web development skills, including extensive use of HTML, CSS, and JavaScript for DOM manipulation.
+
+[Booktory](http://127.0.0.1:5500/index.html) is a simple web application designed for managing a book inventory. Through this application, users can display books, add new books to the inventory, and remove books. This project focuses on leveraging fundamental web development skills, including extensive use of HTML, CSS, and JavaScript for DOM manipulation.
 
 <br/>
 <p align="center">
