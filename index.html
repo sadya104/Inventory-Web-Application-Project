@@ -10,64 +10,71 @@
 <body>
     <article class='container'>
 
-        <aside class="container__left-side">
+        <aside class="left-side">
             <h2>Booktory</h2>
         </aside>
 
-        <div class="container__Books-div">
-           <div>Book one
-            <img src="" alt="">
-            <p class="title">Principles</p>
-            <p class="price">$</p>
-            <p class="author"></p>
-            <input type="button" value="In stock">
-            <i class="fa-regular fa-trash-can"></i>
-            <hr>
-            </div>
-
-           <div>Book two
-            <img src="" alt="">
-            <p class="title">Principles</p>
-            <p class="price">$</p>
-            <p class="author"></p>
-            <input type="button" value="In stock">
-            <i class="fa-regular fa-trash-can"></i>
-            <hr>
-           </div>
+        <div class="books-list">
            
-           <div>Book three
-            <img src="" alt="">
-            <p class="title">Principles</p>
-            <p class="price">$</p>
-            <p class="author"></p>
-            <input type="button" value="In stock">
-            <i class="fa-regular fa-trash-can"></i>
-            <hr>
-           </div>
-        
+           
+            <div class="book-card">
+                <img class="book-card__img" src="images/Book 1.webp" alt="first book">
+                <div class="book-card__info">
+                    <p class="book-card__title">Detransition Baby</p>
+                    <p class="book-card__author">Torrey Peters</p>
+                    <!-- <input class="book-card__stock" type="button" value="In stock"> -->
+                    <button class="book-card__stock">In stock</button>
+                    <p class="book-card__price">$21.99</p>
+                </div>
+
+
+                <i class="fa-regular fa-trash-can book-card__trash"></i>
+            </div>
+            
+            <div class="book-card">
+                <img class="book-card__img" src="images/book2.jpeg" alt="second book">
+                <div class="book-card__info">
+                    <p class="book-card__title">Without a Trace</p>
+                    <p class="book-card__author">Danielle Steel</p>
+                    <!-- <input class="book-card__stock" type="button" value="In stock"> -->
+                    <button class="book-card__stock">In stock</button>
+                    <p class="book-card__price">$25.99</p>
+                </div>
+                <i class="fa-regular fa-trash-can book-card__trash"></i>
+
+            </div>
+                
+                <div class="book-card">
+                    <img class="book-card__img" src="images/book 3.jpeg" alt="first book">
+                    <div class="book-card__info">
+                        <p class="book-card__title">The Mistress</p>
+                        <p class="book-card__author">Danielle Steel</p>
+                        <button class="book-card__stock">In stock</button>
+                        <p class="book-card__price">$21.99</p>
+                        </div>
+                        <i class="fa-regular fa-trash-can book-card__trash"></i>
+                    </div>
         </div>
 
-        <aside class="container__right-side">
-
-        <form class="container__right-side__form">
-            <input type="text" class="container__right-side__form__input" placeholder="Title">
-            <input type="text" class="container__right-side__form__input" placeholder="Author">
-            <input type="text" class="container__right-side__form__input" placeholder="Image URL">
-            <input type="text" class="container__right-side__form__input" placeholder="Price">
-            <select class="container__right-side__form__input__stock" name="stock">
-                <option value="In-Stock">In Stock</option>
-                <option value="Out-of-Stock">Out of Stock</option>
-            </select>
-            <button type="submit">Add Book</button>
 
 
+    <form class="form">
+        <input type="text" class="form__input" placeholder="Title">
+        <input type="text" class="form__input" placeholder="Author">
+        <input type="text" class="form__input" placeholder="Image URL">
+        <input type="text" class="form__input" placeholder="Price">
+        <select class="form__availability" name="stock">
+            <option class="form__instock" value="In Stock">In Stock</option>
+            <option class="form__outofstock"  value="Out of Stock">Out of Stock</option>
+        </select>
+        <button class="form__submit" type="submit">Add Book</button>
+    </form>
 
-        </form>
 
-
-    </aside>
+ 
 
 
     </article>
+    <script src="main.js"></script>
 </body>
 </html>
